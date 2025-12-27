@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traceable - Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ========================================
+         HEADER
+         ======================================== -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="#hero">
+                        <img src="images/logo.png" alt="Traceable" class="logo-image">
+                    </a>
+                </div>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#hero" class="nav-link">Accueil</a></li>
+                        <li class="nav-item"><a href="#solution" class="nav-link">La solution</a></li>
+                        <li class="nav-item"><a href="#features" class="nav-link">Fonctionnalités</a></li>
+                        <li class="nav-item"><a href="#order" class="nav-link">Commander</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- ========================================
+         HERO SECTION (Fond bleu marine)
+         ======================================== -->
+    <section id="hero" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <p class="hero-tagline">Traceable</p>
+                <h1 class="hero-headline"><span class='hero-bold'>Sécurisez vos droits d'auteur</span> <span
+                        class='hero-light'>face au risque de</span> <span class='hero-highlight'>contrôle fiscal</span>
+                </h1>
+                <p class="hero-subheadline">L'outil qui documente automatiquement l'éligibilité aux droits d'auteur.
+                    Fini le stress des contrôles et les redressements coûteux.</p>
+
+                <ul class="check-list hero-benefits">
+                    <li>Traçabilité Automatisée</li>
+                    <li>Dossier Fiscal Blindé</li>
+                    <li>Protection Rétroactive</li>
+                </ul>
+
+                <a href="confirmation.html" class="cta-button cta-button-premium">
+                    <span class="cta-text">Sécuriser ma conformité fiscale</span>
+                    <span class="cta-arrow">→</span>
+                </a>
+
+                <p class="hero-guarantee">Garantie 100% Satisfait ou Remboursé</p>
+                <p class="hero-rating"><span class="stars">★★★★★</span> 4,9/5 Déjà 517 clients satisfaits</p>
+
+                <div class="hero-image">
+                    <img src="images/hero.png" alt="Traceable">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         PAIN SECTION - Points de douleur (6 cards)
+         ======================================== -->
+    <section id="pain" class="pain-section">
+        <div class="container">
+            <h2 class="section-title">La gestion des droits d'auteur est-elle votre épée de Damoclès ?</h2>
+            <p class="section-subtitle">Pour les entreprises tech, l'incertitude fiscale est un risque quotidien qui
+                pèse sur la direction.</p>
+
+            <div class="pain-grid">
+                <div class="pain-card">
+                    <div class="pain-image">
+                        <img src="images/pain_1.png" alt="Pain point 1">
+                    </div>
+                    <h3 class="pain-card-title">La peur du redressement</h3>
+                    <p class="pain-card-text">Vous vivez avec l'angoisse qu'un <strong>contrôleur fiscal requalifie vos
+                            rémunérations</strong> en salaire. Sans preuves tangibles, c'est le redressement assuré sur
+                        <strong>3 ans de cotisations sociales</strong>.
+                    </p>
+                </div>
+
+                <div class="pain-card">
+                    <div class="pain-image">
+                        <img src="images/pain_2.png" alt="Pain point 2">
+                    </div>
+                    <h3 class="pain-card-title">L'archéologie rétroactive</h3>
+                    <p class="pain-card-text">Devoir fouiller dans des <strong>milliers de commits Git</strong> datant
+                        d'il y a 6 mois pour justifier une tâche est un enfer. La mémoire s'efface, et la
+                        <strong>traçabilité manuelle est impossible</strong>.
+                    </p>
+                </div>
+
+                <div class="pain-card">
+                    <div class="pain-image">
+                        <img src="images/pain_3.png" alt="Pain point 3">
+                    </div>
+                    <h3 class="pain-card-title">La fragilité du déclaratif</h3>
+                    <p class="pain-card-text">Vos fichiers Excel ou simples déclarations sur l'honneur sont
+                        <strong>rejetés par l'administration</strong>. Les inspecteurs exigent désormais des
+                        <strong>preuves matérielles et horodatées</strong> de l'apport créatif.
+                    </p>
+                </div>
+
+                <div class="pain-card">
+                    <div class="pain-image">
+                        <img src="images/pain_4.png" alt="Pain point 4">
+                    </div>
+                    <h3 class="pain-card-title">La charge mentale des devs</h3>
+                    <p class="pain-card-text">Demander à vos développeurs de <strong>rédiger des justifications
+                            administratives</strong> tue leur productivité. C'est une corvée qu'ils repoussent, créant
+                        des <strong>trous dans votre documentation</strong>.</p>
+                </div>
+
+                <div class="pain-card">
+                    <div class="pain-image">
+                        <img src="images/pain_5.png" alt="Pain point 5">
+                    </div>
+                    <h3 class="pain-card-title">Le coût caché exorbitant</h3>
+                    <p class="pain-card-text">Vos RH et CTO perdent des <strong>dizaines d'heures non
+                            facturables</strong> chaque année à préparer les dossiers. Ce temps perdu coûte souvent plus
+                        cher que l'économie réalisée sur les charges.</p>
+                </div>
+
+                <div class="pain-card">
+                    <div class="pain-image">
+                        <img src="images/pain_6.png" alt="Pain point 6">
+                    </div>
+                    <h3 class="pain-card-title">Le flou juridique constant</h3>
+                    <p class="pain-card-text">La frontière entre <strong>technique et créatif</strong> est subjective.
+                        Sans un outil qui cadre les critères d'éligibilité au quotidien, vous naviguez à vue dans un
+                        <strong>brouillard juridique dangereux</strong>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         SOLUTION SECTION (Désir)
+         ======================================== -->
+    <section id="solution" class="solution-section">
+        <div class="container">
+            <div class="solution-content">
+                <div class="solution-text">
+                    <h2>La preuve irréfutable de votre créativité, générée automatiquement</h2>
+                    <p class="solution-description">Traceable se connecte à vos outils de production pour capturer,
+                        qualifier et historiser les tâches créatives en temps réel. En cas de contrôle, vous exportez un
+                        dossier de preuves complet, structuré et incontestable en un clic.</p>
+
+                    <a href="confirmation.html" class="cta-button">
+                        <span class="cta-text">Découvrir la solution</span>
+                        <span class="cta-arrow">→</span>
+                    </a>
+                </div>
+
+                <div class="solution-image">
+                    <img src="images/solution.png" alt="Solution">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         FEATURES SECTION (Preuve Sociale)
+         ======================================== -->
+    <section id="features" class="features-section">
+        <div class="container">
+            <p class="features-tagline">Tout ce dont vous avez besoin</p>
+            <h2 class="features-title">Ce que vous allez obtenir</h2>
+            <p class="features-subtitle">Un package complet pour atteindre vos objectifs</p>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-number">01</div>
+                    <div class="feature-content">
+                        <h3 class="feature-title">Traçabilité Automatisée</h3>
+                        <p class="feature-description">Connexion directe à Git, Jira et Figma pour identifier et taguer
+                            les contributions créatives sans intervention manuelle lourde.</p>
+                    </div>
+                    <div class="feature-badge">Inclus</div>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-number">02</div>
+                    <div class="feature-content">
+                        <h3 class="feature-title">Dossier Fiscal Blindé</h3>
+                        <p class="feature-description">Génération instantanée d'un rapport PDF conforme aux exigences de
+                            l'administration, liant chaque euro versé à une preuve tangible.</p>
+                    </div>
+                    <div class="feature-badge">Inclus</div>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-number">03</div>
+                    <div class="feature-content">
+                        <h3 class="feature-title">Protection Rétroactive</h3>
+                        <p class="feature-description">Analysez votre historique existant pour sécuriser les mois
+                            précédents et identifier les risques de requalification avant le contrôle.</p>
+                    </div>
+                    <div class="feature-badge">Inclus</div>
+                </div>
+            </div>
+
+            <div class="features-cta">
+                <a href="confirmation.html" class="cta-button cta-button-light">
+                    <span class="cta-text">Je veux tout ça</span>
+                    <span class="cta-arrow">→</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         TESTIMONIALS SECTION
+         ======================================== -->
+    <section id="testimonials" class="testimonials-section">
+        <div class="container">
+            <p class="testimonials-tagline">Ils nous font confiance</p>
+            <h2 class="section-title">Ce que nos clients disent</h2>
+            <p class="section-subtitle">Des résultats concrets et des clients satisfaits</p>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="rating-value">5/5</span>
+                    </div>
+                    <p class="testimonial-text">"Nous avons subi un contrôle fiscal l'an dernier. Grâce à Traceable,
+                        nous avons sorti les dossiers de preuves pour nos 12 développeurs en 10 minutes. L'inspecteur
+                        n'a rien trouvé à redire. Un soulagement immense."</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">
+                            <img src="images/testimonial_1.png" alt="Stéphane Dumont">
+                        </div>
+                        <div class="testimonial-info">
+                            <p class="testimonial-name">Stéphane Dumont</p>
+                            <p class="testimonial-role">Client vérifié</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="rating-value">5/5</span>
+                    </div>
+                    <p class="testimonial-text">"En tant que DAF, la gestion des droits d'auteur était mon cauchemar
+                        annuel. Je passais mes week-ends à courir après les justificatifs. Aujourd'hui, tout est
+                        automatisé et propre. Je dors enfin tranquille."</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">
+                            <img src="images/testimonial_2.png" alt="Julie Ferrier">
+                        </div>
+                        <div class="testimonial-info">
+                            <p class="testimonial-name">Julie Ferrier</p>
+                            <p class="testimonial-role">Client vérifié</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="rating-value">4,9/5</span>
+                    </div>
+                    <p class="testimonial-text">"C'est le seul outil qui comprend vraiment le workflow des devs. Je n'ai
+                        plus à remplir des fichiers Excel absurdes pour prouver que mon code est créatif. Traceable le
+                        voit directement dans mes commits."</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">
+                            <img src="images/testimonial_3.png" alt="Marc Lemaire">
+                        </div>
+                        <div class="testimonial-info">
+                            <p class="testimonial-name">Marc Lemaire</p>
+                            <p class="testimonial-role">Client vérifié</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Séparation visuelle -->
+    <div class="section-divider">
+        <div class="divider-line"></div>
+        <div class="divider-icon">✦</div>
+        <div class="divider-line"></div>
+    </div>
+
+    <!-- ========================================
+         FAQ SECTION
+         ======================================== -->
+    <section id="faq" class="faq-section">
+        <div class="container">
+            <p class="faq-tagline">Vous avez des questions ?</p>
+            <h2 class="section-title">Questions fréquentes</h2>
+            <p class="section-subtitle">Tout ce que vous devez savoir avant de vous lancer</p>
+
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <div class="faq-icon">
+                        <span>?</span>
+                    </div>
+                    <div class="faq-content">
+                        <h3 class="faq-question-text">L'administration fiscale reconnaît-elle ce type de preuves ?</h3>
+                        <p class="faq-answer-text">Absolument. L'administration exige la matérialité de l'œuvre.
+                            Traceable fournit exactement cela : des liens directs entre la rémunération et les livrables
+                            créatifs (code, design, architecture), horodatés et documentés.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-icon">
+                        <span>?</span>
+                    </div>
+                    <div class="faq-content">
+                        <h3 class="faq-question-text">Est-ce compatible avec nos outils de développement ?</h3>
+                        <p class="faq-answer-text">Oui, Traceable s'intègre nativement avec GitHub, GitLab, Bitbucket,
+                            Jira, Trello et Figma. L'installation se fait en quelques minutes via API sécurisée.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-icon">
+                        <span>?</span>
+                    </div>
+                    <div class="faq-content">
+                        <h3 class="faq-question-text">Mes développeurs doivent-ils changer leurs habitudes ?</h3>
+                        <p class="faq-answer-text">Non, c'est la force de Traceable. L'outil fonctionne en arrière-plan.
+                            Une simple validation mensuelle de 5 minutes suffit pour confirmer la nature créative des
+                            tâches pré-identifiées.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-icon">
+                        <span>?</span>
+                    </div>
+                    <div class="faq-content">
+                        <h3 class="faq-question-text">La sécurité de notre code source est-elle garantie ?</h3>
+                        <p class="faq-answer-text">Nous ne stockons pas votre propriété intellectuelle. Traceable
+                            analyse uniquement les métadonnées et la structure des contributions pour prouver l'effort
+                            créatif, sans aspirer votre code source.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-icon">
+                        <span>?</span>
+                    </div>
+                    <div class="faq-content">
+                        <h3 class="faq-question-text">Quel est le coût par rapport au risque ?</h3>
+                        <p class="faq-answer-text">À 20€/mois/utilisateur, Traceable coûte une fraction infime des
+                            économies de charges réalisées via les droits d'auteur, et surtout, il élimine le risque de
+                            redressement qui peut chiffrer en centaines de milliers d'euros.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-cta">
+                <p class="faq-cta-text">Vous avez d'autres questions ?</p>
+                <a href="https://wa.me/32497312726" class="faq-contact-btn">
+                    <span>💬</span> Contactez-nous sur WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         FINAL CTA SECTION (Action)
+         ======================================== -->
+    <section id="order" class="final-cta-section">
+        <div class="container">
+            <div class="final-cta-container">
+                <p class="final-cta-tagline">Ne laissez pas passer cette opportunité</p>
+                <h2 class="final-cta-title">Prêt à passer à l'action ?</h2>
+                <p class="final-cta-subtitle">Rejoignez des centaines de clients satisfaits</p>
+
+                <!-- Offer Card -->
+                <div class="offer-card">
+                    <div class="offer-card-header">
+                        <span class="offer-badge">Offre complète</span>
+                    </div>
+
+                    <!-- Prix -->
+                    <div class="price-display">
+                        <p class="price-label">Votre investissement</p>
+                        <p class="price-amount">20 € / mois / utilisateur</p>
+                        <p class="price-note">Paiement unique • Accès immédiat</p>
+                    </div>
+
+                    <!-- Récapitulatif -->
+                    <div class="offer-recap">
+                        <h3 class="recap-title">Ce que vous obtenez :</h3>
+                        <ul class="check-list offer-list">
+                            <li>Traçabilité Automatisée</li>
+                            <li>Dossier Fiscal Blindé</li>
+                            <li>Protection Rétroactive</li>
+                            <li>Garantie satisfait ou remboursé 30 jours</li>
+                            <li>Support par WhatsApp inclus</li>
+                        </ul>
+                    </div>
+
+                    <!-- CTA Final -->
+                    <a href="confirmation.html" class="cta-button cta-button-premium cta-button-final cta-large">
+                        <span class="cta-text">Sécuriser mon entreprise maintenant</span>
+                        <span class="cta-arrow">→</span>
+                    </a>
+                </div>
+
+                <!-- Trust Badges -->
+                <div class="trust-badges">
+                    <div class="trust-badge">
+                        <span class="trust-icon">🔒</span>
+                        <span class="trust-text">Paiement sécurisé</span>
+                    </div>
+                    <div class="trust-badge">
+                        <span class="trust-icon">✅</span>
+                        <span class="trust-text">Garantie 30 jours</span>
+                    </div>
+                    <div class="trust-badge">
+                        <span class="trust-icon">⚡</span>
+                        <span class="trust-text">Accès immédiat</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         CONTACT SECTION
+         ======================================== -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <p class="contact-tagline">Une question ?</p>
+            <h2 class="section-title">Contactez-nous</h2>
+            <p class="section-subtitle">Nous vous répondons sous 24h</p>
+
+            <div class="contact-form-wrapper">
+                <form class="contact-form" action="https://formspree.io/f/mjgbkyzn" method="POST">
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Votre adresse email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Votre message..." rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="cta-button cta-button-premium">
+                        <span class="cta-text">Envoyer le message</span>
+                        <span class="cta-arrow">→</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         FOOTER
+         ======================================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">Traceable</h3>
+                    <p class="footer-description">Votre solution pour réussir.</p>
+                </div>
+
+                <div class="footer-section">
+                    <h3 class="footer-title">Liens utiles</h3>
+                    <ul class="footer-links">
+                        <li><a href="#hero">Accueil</a></li>
+                        <li><a href="#solution">Solution</a></li>
+                        <li><a href="#features">Fonctionnalités</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3 class="footer-title">Contact</h3>
+                    <ul class="footer-links">
+                        <li><a href="#contact">Nous contacter</a></li>
+                        <li><a href="https://wa.me/32497312726">Support WhatsApp</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-legal">
+                <ul class="legal-links">
+                    <li><a href="mentions-legales.html">Mentions légales</a></li>
+                    <li><a href="cgv.html">CGV</a></li>
+                    <li><a href="politique-confidentialite.html">Politique de confidentialité</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Traceable. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
